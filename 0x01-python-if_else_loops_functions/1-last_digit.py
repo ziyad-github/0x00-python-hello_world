@@ -8,8 +8,8 @@ if number < 0:
 else:
     print(f"{digit:d} and is ", end="")
     if digit == 0:
-        print("zero")
-    elif digit < 6:
-        print("less than 6 and not 0")
-    else:
+        print("0")
+    elif digit > 5:
         print("greater than 5")
+    else:
+        print("less than 6 and not 0")
