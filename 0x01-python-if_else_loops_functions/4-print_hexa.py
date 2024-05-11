@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for num in range(98):
+for number in range(98):
     print("{} = {:#x}".format(number, number))
