@@ -4,7 +4,6 @@ for num in range(100):
         if sorted(str(num)) == sorted(str(num2)):
             break
     else:  # Executed when inner loop completes without breaking
-        if num == 99:
-            print("89")
-        else:
+        if num != 99:
             print("{:02d}".format(num), end=", ")
+print("89")
