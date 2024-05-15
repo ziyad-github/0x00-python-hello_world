@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-for num in range(100):
-    for num2 in range(100, -1, -1):
-        if (sorted(str(num)) != sorted(str(num2))):
-            print("{:02d}".format(num), end=", ")
+for num in range(9):
+    for num2 in range(num + 1, 10):
+    if (num * 10 + num2 < 89):
+        print("{:d}{:d}".format(num, num2), end=", ")
+print("{:d}".format(89))
